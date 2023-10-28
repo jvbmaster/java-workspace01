@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SentinelsApplication<sentinels>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ib2s.sentinels.SentinelsApplication",
+            "projectName": "sentinels",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

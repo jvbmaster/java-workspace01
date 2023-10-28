@@ -16,7 +16,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "client")
-public class ClientModel extends RepresentationModel implements Serializable{
+public class ClientModel extends RepresentationModel<ClientModel> implements Serializable{
     private static final long serialVersionUID = 1L;
 
     @Id
